@@ -1,0 +1,1 @@
+input.simple = (input.Principle_amount * input.Time * input.Rate) / 100;
