@@ -1,0 +1,22 @@
+input.Total = input.Mark1 + input.Mark2 + input.Mark3;
+input.Average = input.Total / 3;
+if(Average >= 90)
+{
+	input.Grade = "S";
+}
+else if(Average >= 80 && Average <= 89)
+{
+	input.Grade = "A";
+}
+else if(Average >= 70 && Average <= 79)
+{
+	input.Grade = "B";
+}
+else if(Average >= 60 && Average <= 69)
+{
+	input.Grade = "C";
+}
+else
+{
+	input.Grade = "fail";
+}
