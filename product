@@ -1,0 +1,8 @@
+input.Total = input.Prixe * input.Quantity;
+row.Total=row.Prixe * row.Quantity;
+temp_total = 0.0;
+for each  new_Lineitems in Line_items
+{
+	temp_total = temp_total * new_Lineitems.Total;
+}
+Total = temp_total;
